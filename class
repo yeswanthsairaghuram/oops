@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;//22A91A12B4
+class Student{
+	public:
+		string rollno,name;
+		int marks,bc;
+		Student(string r,string n,int m,int b)
+		{
+			this->rollno=r;
+			this->name=n;
+			this->marks=m;
+			this->bc=b;
+		}
+		display()
+		{
+			cout<<rollno<<" "<<name<<endl;
+			cout<<marks<<" "<<bc<<endl;
+		}
+};
+int main()
+{
+	Student s1("12b4","yeswanth",600,0);
+	s1.display();
+	return 0;
+}
