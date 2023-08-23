@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std; //22A91A12B4
 
 void fun1(int i){
 	if (i>10) return;
